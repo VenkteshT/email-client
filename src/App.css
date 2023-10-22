@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 99vh;
+  width: 100%;
+  color: #636363;
+}
+
+.container {
+  background-color: #f4f5f9;
+  height: 95vh;
+  width: 80vw;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: solid 1px gray;
+}
+
+.sub-container {
+  height: 98%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.emails {
+  height: 87%;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  overflow-y: scroll;
+}
+
+.emails::-webkit-scrollbar {
+  display: none;
+}
+
+.full-info {
+  width: 120%;
+  height: 90%;
+}

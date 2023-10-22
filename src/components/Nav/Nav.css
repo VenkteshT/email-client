@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.nav-title {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.nav-item {
+  list-style: none;
+  border-radius: 8px;
+  padding: 5px;
+  width: 70px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+li.all {
+  background-color: #e1e4ea;
+}
+
+li.read {
+  background-color: #e1e4ea;
+}
+
+li.unread {
+  background-color: #e1e4ea;
+}
+
+li.favourites {
+  background-color: #e1e4ea;
+}
