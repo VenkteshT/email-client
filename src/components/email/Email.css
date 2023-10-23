@@ -49,6 +49,7 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  text-align: start;
 }
 
 .isfavourite {
@@ -63,4 +64,10 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
+}
+
+@media (max-width: 1180px) {
+  .description {
+    display: none;
+  }
 }
